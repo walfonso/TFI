@@ -47,10 +47,13 @@ View the hosted on [Heroku] ()
 
 ### Walter Alfonso: Implementación en python del modelo IA -
 
+![image](https://github.com/walfonso/TFI/assets/8229684/2b4e784b-4387-4b62-86a4-8d0953961b06)
+
+
 - Acceso a los métodos CRUD - MongoDB:
 
 1. -> \_DashBoard
-   ![Dasboard](https://raw.githubusercontent.com/walfonso/TFI/selectpers/assets/mtv.png)
+   ![Dasboard](https://raw.githubusercontent.com/walfonso/TFI/selecpers/assets/mtv.png)
 
 2. -> _Productos - Lista de todos los productos_
    ![List Products](https://raw.githubusercontent.com/bonino97/FE-MCGA/products/src/assets/products.png)
