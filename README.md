@@ -1,4 +1,4 @@
-# TRABAJO FINA DE INGENIERIA
+# TRABAJO FINAL DE INGENIERIA
 
 ## HR-SIL Sistema de Intermediación Laboral.
 
@@ -49,40 +49,29 @@ View the hosted on [Heroku] ()
 
 ![image](https://github.com/walfonso/TFI/assets/8229684/2b4e784b-4387-4b62-86a4-8d0953961b06)
 
-
 - Acceso a los métodos CRUD - MongoDB:
 
-1. -> \_DashBoard
-   ![Dasboard](https://raw.githubusercontent.com/walfonso/TFI/selecpers/assets/mtv.png)
+1. -> \_Home
+   ![Home](https://raw.githubusercontent.com/walfonso/TFI/selecpers/assets/home.png)
 
 2. -> _Productos - Lista de todos los productos_
-   ![List Products](https://raw.githubusercontent.com/bonino97/FE-MCGA/products/src/assets/products.png)
+   ![List Products](https://raw.githubusercontent.com/walfonso/TFI/selecpers/assets/predic.png)
 
 3. -> _Productos - Agregar producto_
-   ![Add Product](https://raw.githubusercontent.com/bonino97/FE-MCGA/products/src/assets/addProduct.png)
+   ![Add Product](https://raw.githubusercontent.com/walfonso/TFI/selecpers/assets/dashboard.png)
 
 4. -> _Productos - Actualizar datos del producto_
-   ![Edit Product](https://raw.githubusercontent.com/walfonso/MCGA-FE/development/src/assets/updateProduct.png)
+   ![Edit Product](https://raw.githubusercontent.com/walfonso/TFI/selecpers/assets/estadisticas.png)
 
 5. -> _Productos - Borrar producto_
 
 CRUD Usuarios
 
 1. -> _Usuarios - Lista de todos los usuarios_
-   ![List Products](https://raw.githubusercontent.com/walfonso/MCGA-FE/development/src/assets/users.png)
+   ![List Products](https://raw.githubusercontent.com/walfonso/TFI/selecpers/assets/genpdf.png)
 
 2. -> _Usuarios - Agregar usuario_
-   ![Add Product](https://raw.githubusercontent.com/walfonso/MCGA-FE/development//src/assets/addUser.png)
-
-3. -> _Productos - Actualizar datos del producto_
-   ![Edit Product](https://raw.githubusercontent.com/walfonso/MCGA-FE/development/src/assets/updateProduct.png)
-
-4. -> _Usuarios - Borrar usuario_
-
-LOGIN Usuarios
-
-1.  -> _Acceso Usuarios - Login usuario_
-    ![Edit Product](https://raw.githubusercontent.com/walfonso/MCGA-FE/development/src/assets/login.png)
+   ![Add Product](https://raw.githubusercontent.com/walfonso/TFI/selecpers/assets/rse.png)
 
 Walter Alfonso
 
