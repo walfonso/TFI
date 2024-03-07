@@ -1,6 +1,6 @@
 # TRABAJO FINA DE INGENIERIA
 
-##  HR-SIL Sistema de Intermediación Laboral.
+## HR-SIL Sistema de Intermediación Laboral.
 
 Permite manejar el 'State' de una aplicacion, para que sea mas facil mantener conforme va creciendo.
 Tambien te ayuda a manejar los datos, conforme el Usuario realiza diferentes acciones.
@@ -43,14 +43,14 @@ python manage.py runserver
 
 View the hosted on [Heroku] ()
 
-## Desarrollo 
+## Desarrollo
 
 ### Walter Alfonso: Implementación en python del modelo IA -
 
 - Acceso a los métodos CRUD - MongoDB:
 
 1. -> \_DashBoard
-   ![Dasboard](https://raw.githubusercontent.com/walfonso/TFI.git/assets/dashboard.png)
+   ![Dasboard](https://raw.githubusercontent.com/walfonso/TFI.git/selectpers/assets/MTV.png)
 
 2. -> _Productos - Lista de todos los productos_
    ![List Products](https://raw.githubusercontent.com/bonino97/FE-MCGA/products/src/assets/products.png)
@@ -84,4 +84,3 @@ LOGIN Usuarios
 Walter Alfonso
 
 © Año 2023
-
