@@ -1,0 +1,32 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Responsabilidad Social Empresaria{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/contact-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h2>Responsabilidad Social Empresaria</h2>
+<span class="subheading"></span>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="col-lg-8 col-md-10 mx-auto">
+    <p>Para HR-SIL, el marketing sustentable va más allá de adoptar prácticas comerciales que respeten el medio ambiente
+      y la
+      sociedad. Se trata de una filosofía arraigada en la responsabilidad corporativa, donde la transparencia en la
+      comunicación de nuestros esfuerzos es fundamental. Estamos comprometidos no solo en mejorar la reputación de
+      nuestra
+      marca, sino también en generar un impacto positivo tangible en el mundo que nos rodea.</p>
+    <br>
+    <div class="row">
+      <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid" src="{% static 'core/img/rse.png' %}" alt="">
+        <h2><span style="background-color: #ffffff; color: #000000;"><a
+              style="background-color: #ffffff; color: #000000;" title="RSE"
+              href="https://www.youtube.com/watch?v=jG_KG7bB2j0" target="_blank">Visitanos</a></span></h2>
+      </div>
+
+    </div>
+  </div>
+  {% endblock %}

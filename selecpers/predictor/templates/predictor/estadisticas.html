@@ -1,0 +1,39 @@
+{% extends 'core/base.html' %}
+
+{% block background %}{% load static %}{% static 'predictor/img/algoritmo-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h2>Inteligencia Artificial RNSC</h2>
+<span class="subheading">Red Neuronal para Selección de Candidatos</span>
+{% endblock %}
+
+{% block content %}
+
+<body>
+  <h2>Estadísticas de Categorías</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Categoría</th>
+        <th>Número de Candidatos</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for categoria, cantidad in estadisticas.items %}
+      <tr>
+        <td>{{ categoria }}</td>
+        <td>{{ cantidad }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <h2>Gráfico de Categorías</h2>
+  <img src="data:image/png;base64,{{ grafico_base64 }}" alt="Gráfico de Categorías">
+</body>
+
+
+
+{% endblock %}
+
+</html>

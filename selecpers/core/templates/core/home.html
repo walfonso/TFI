@@ -1,0 +1,60 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Portada{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h2>Trabajo Final de Ingenieria</h2>
+<span class="subheading">Modelo de Inteligencia Artificial - Selección de Candidatos</span>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+
+  <div class="col-lg-8 col-md-10 mx-auto">
+    <h2 class="section-heading"></h2>
+    <p>Este sistema web &nbsp;implementa un modelo de Inteligencia Artificial que preselecciona candidatos para cubrir
+      un
+      puesto a trav&eacute;s de cuatro caracter&iacute;sticas, Antig&uuml;edad, Idioma, Voluntad Entusiasta, Firmeza y
+      Seguridad. Como resultado arroja si el candidato es Muy Bueno, Bueno o Regular para cubrir la vacante. Se realiza
+      un
+      sistema de predicci&oacute;n y gesti&oacute;n de candidatos utilizando Django, scikit-learn, TensorFlow/Keras, y
+      ReportLab.</p>
+    <br>
+    <p><strong><span style="text-decoration: underline;"><em>Resumen de las implementaciones
+            principales:</em></span></strong></p>
+    <p>&nbsp;</p>
+
+    <p><strong>Predecir Candidato:</strong> Una vista que muestra un formulario para ingresar datos de un nuevo
+      candidato.
+      Cuando se env&iacute;a el formulario, el modelo pre-entrenado se utiliza para predecir la categor&iacute;a del
+      candidato y se guarda en la base de datos. Luego se muestra el resultado de la predicci&oacute;n junto con la
+      informaci&oacute;n del candidato y una lista de todos los candidatos almacenados.</p>
+    <p><strong>Cargar Modelo y Definici&oacute;n de Vistas:</strong> El modelo de red neuronal pre-entrenado se carga
+      desde
+      un archivo `.h5`. Luego, se definen varias vistas utilizando Django, cada una con una funcionalidad
+      espec&iacute;fica.
+    </p>
+    <p><strong>Estad&iacute;sticas de Candidatos:</strong> Una vista que genera estad&iacute;sticas sobre los candidatos
+      almacenados en la base de datos, incluyendo un gr&aacute;fico de barras que muestra el n&uacute;mero de candidatos
+      en
+      diferentes categor&iacute;as (Regular, Bueno, Muy Bueno). Las estad&iacute;sticas y el gr&aacute;fico se muestran
+      en
+      una plantilla HTML.</p>
+    <p><strong>Generar PDF:</strong> Una vista que genera un documento PDF con informaci&oacute;n detallada sobre todos
+      los
+      candidatos almacenados en la base de datos, incluyendo sus datos personales y la distribuci&oacute;n de
+      categor&iacute;as. Tambi&eacute;n incluye un gr&aacute;fico de torta que muestra la distribuci&oacute;n de
+      categor&iacute;as.</p>
+    <p><strong>Borrar Candidatos:</strong> Una funci&oacute;n para borrar todos los candidatos almacenados en la base de
+      datos cuando se realiza una solicitud POST.</p>
+    <p>En resumen, este c&oacute;digo proporciona funcionalidades completas para la gesti&oacute;n de candidatos,
+      incluyendo
+      la predicci&oacute;n de categor&iacute;as y la generaci&oacute;n de informes en PDF utilizando Django y
+      bibliotecas de
+      Python.</p>
+
+  </div>
+</div>
+{% endblock %}

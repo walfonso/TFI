@@ -1,0 +1,42 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Acerca de{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h2>Acerca de</h2>
+<span class="subheading">Biografía</span>
+{% endblock %}
+
+{% block content %}
+<div class="row">
+  <div class="col-lg-3 col-md-4 offset-lg-1">
+    <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+  </div>
+  <div class="col-lg-7 col-md-8">
+    <h2 class="section-heading">Walter Alfonso</h2>
+    <p>Estudiante avanzado de Ingeniería en Sistemas con más de 15 años de experiencia en el
+      desarrollo
+      de software, específicamente en el área de selección de personal. Durante mi trayectoria, he trabajado en el
+      diseño e
+      implementación de soluciones tecnológicas que optimizan los procesos de reclutamiento y evaluación de candidatos.
+    </p>
+    <br>
+    <p>Mi experiencia se ha centrado en crear aplicaciones y plataformas personalizadas que facilitan la gestión de
+      datos, la
+      automatización de tareas administrativas y la mejora de la eficiencia en la toma de decisiones en el ámbito de
+      recursos
+      humanos. A lo largo de los años, he demostrado habilidades sólidas en el análisis de requisitos, el diseño de
+      sistemas y
+      la implementación de soluciones innovadoras para las necesidades específicas del área de selección de personal.
+    </p>
+    <br>
+    <p>Mi compromiso con la excelencia y mi enfoque proactivo me han permitido contribuir significativamente al
+      desarrollo y
+      éxito de proyectos en los que he participado, combinando mis conocimientos técnicos con un profundo entendimiento
+      de los
+      procesos de selección de personal.</p>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,37 @@
+{% extends 'core/base.html' %}
+
+{% block background %}{% load static %}{% static 'predictor/img/algoritmo-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h2>Inteligencia Artificial RNSC</h2>
+<span class="subheading">Red Neuronal para Selección de Candidatos</span>
+{% endblock %}
+
+{% block content %}
+
+<body>
+
+  <div class="container mt-5">
+    <h2>Ingresa los datos del Candidato</h2>
+
+    <form method="post" class="mt-4">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit" class="btn btn-primary">Realizar prediccion</button>
+    </form>
+
+    {% if form.errors %}
+    <div class="alert alert-danger mt-4">
+      <strong>Error:</strong> Por favor, corrige los errores en el formulario.
+    </div>
+    {% endif %}
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-eOJq17Lbgl3UqLc0XD98p7WuJAFp9Z9PyBpA+HA5RHtkxMpWO3RIz9z1F3ZuDAzL"
+    crossorigin="anonymous"></script>
+
+</body>
+{% endblock %}
+
+</html>

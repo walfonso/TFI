@@ -1,0 +1,79 @@
+{% extends 'core/base.html' %}
+
+{% block background %}{% load static %}{% static 'predictor/img/algoritmo-bg.jpg' %}{% endblock %}
+
+{% block content %}
+<style>
+  /* Estilos para la tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+
+  th,
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  .actions {
+    margin-bottom: 20px;
+    text-align: center;
+    /* Centrar los elementos */
+  }
+
+  .actions a,
+  .actions form {
+    display: inline-block;
+    margin-right: 10px;
+  }
+</style>
+
+<h2>Resultados de la predicción</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Apellido y Nombre</th>
+      <th>Categoria</th>
+      <th>valores</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for candidato in candidatos %}
+    <tr>
+      <td>{{ candidato.name }}</td>
+      <td>
+        {% if candidato.candidato == 1 %}
+        Regular
+        {% elif candidato.candidato == 2 %}
+        Bueno
+        {% elif candidato.candidato == 3 %}
+        Muy Bueno
+        {% endif %}
+      </td>
+      <td>{{ candidato.experiencia }}, {{ candidato.idioma }}, {{ candidato.ve }}, {{ candidato.fys }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<div class="actions">
+  <a href="{% url 'predecir_candidato' %}" class="btn btn-primary">Realizar una nueva predicción</a>
+  <a href="{% url 'estadisticas' %}" class="btn btn-primary">Generar Estadisticas</a>
+  <a href="{% url 'generar_pdf' %}" class="btn btn-primary">Generar PDF</a>
+  <form action="{% url 'borrar_candidatos' %}" method="post"
+    onsubmit="return confirm('¿Estás seguro de que deseas borrar todos los candidatos?')">
+    {% csrf_token %}
+    <button type="submit" class="btn btn-danger">Borrar todos los candidatos</button>
+  </form>
+</div>
+
+
+
+{% endblock %}
