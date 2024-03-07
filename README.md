@@ -40,27 +40,23 @@ View the hosted on [Heroku] ()
 ### Walter Alfonso: Implementación en python del modelo IA -
 
 
-1. -> Home
+1. -> _Home_
    ![Home](https://raw.githubusercontent.com/walfonso/TFI/master/selecpers/assets/home.png)
 
-2. -> _Productos - Lista de todos los productos_
-   ![List Products](https://raw.githubusercontent.com/walfonso/TFI/master/selecpers/assets/predic.png)
+2. -> _Formulario de Ingresos de Candidatos_
+   ![Formulario](https://raw.githubusercontent.com/walfonso/TFI/master/selecpers/assets/predic.png)
 
-3. -> _Productos - Agregar producto_
-   ![Add Product](https://raw.githubusercontent.com/walfonso/TFI/master/selecpers/assets/dashboard.png)
+3. -> _Dashboard_
+   ![Dashboard](https://raw.githubusercontent.com/walfonso/TFI/master/selecpers/assets/dashboard.png)
 
-4. -> _Productos - Actualizar datos del producto_
-   ![Edit Product](https://raw.githubusercontent.com/walfonso/TFI/master/selecpers/assets/estadisticas.png)
+4. -> _Visualización de Estadísticas_
+   ![Estadísticas](https://raw.githubusercontent.com/walfonso/TFI/master/selecpers/assets/estadisticas.png)
 
-5. -> _Productos - Borrar producto_
+5. -> _Generar PDF_
+   ![Generar PDF](https://raw.githubusercontent.com/walfonso/TFI/master/selecpers/assets/genpdf.png)
 
-CRUD Usuarios
-
-1. -> _Usuarios - Lista de todos los usuarios_
-   ![List Products](https://raw.githubusercontent.com/walfonso/TFI/master/selecpers/assets/genpdf.png)
-
-2. -> _Usuarios - Agregar usuario_
-   ![Add Product](https://raw.githubusercontent.com/walfonso/TFI/master/selecpers/assets/rse.png)
+2. -> _Responsabilida Social Empresaria_
+   ![RSE](https://raw.githubusercontent.com/walfonso/TFI/master/selecpers/assets/rse.png)
 
 Walter Alfonso
 
