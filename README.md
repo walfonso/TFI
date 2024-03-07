@@ -50,7 +50,7 @@ View the hosted on [Heroku] ()
 - Acceso a los métodos CRUD - MongoDB:
 
 1. -> \_DashBoard
-   ![Dasboard](https://raw.githubusercontent.com/walfonso/TFI/assets/MTV.png)
+   ![Dasboard](https://raw.githubusercontent.com/walfonso/TFI/selectpers/assets/MTV.png)
 
 2. -> _Productos - Lista de todos los productos_
    ![List Products](https://raw.githubusercontent.com/bonino97/FE-MCGA/products/src/assets/products.png)
