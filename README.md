@@ -41,16 +41,16 @@ python manage.py runserver
 
 ## Vista Online
 
-View the hosted on [Heroku] (https://dbmarket2023-1d0af4cbfaaf.herokuapp.com/)
+View the hosted on [Heroku] ()
 
-## Desarrollo de Front-End
+## Desarrollo 
 
-### Walter Alfonso: recurso `product`
+### Walter Alfonso: Implementación en python del modelo IA -
 
 - Acceso a los métodos CRUD - MongoDB:
 
 1. -> \_DashBoard
-   ![Dasboard](https://raw.githubusercontent.com/bonino97/FE-MCGA/products/src/assets/dashboard.png)
+   ![Dasboard](https://raw.githubusercontent.com/walfonso/TFI.git/assets/dashboard.png)
 
 2. -> _Productos - Lista de todos los productos_
    ![List Products](https://raw.githubusercontent.com/bonino97/FE-MCGA/products/src/assets/products.png)
