@@ -1,17 +1,7 @@
 # TRABAJO FINAL DE INGENIERIA
 
 ## HR-SIL Sistema de Intermediación Laboral.
-
-Permite manejar el 'State' de una aplicacion, para que sea mas facil mantener conforme va creciendo.
-Tambien te ayuda a manejar los datos, conforme el Usuario realiza diferentes acciones.
-
-## Caracteristicas de Redux.
-
-- Solo se tiene un State principal.
-- El State cambia de acuerdo a lo que sucede en la interfaz de Usuario.
-- Solo ciertas funciones cambian el State.
-- El Usuario es el que utiliza estas funciones y cambia el state.
-- Solo se realiza un cambio a la vez.
+El proyecto web  implementa un modelo de Inteligencia Artificial que preselecciona candidatos para cubrir un puesto a través de cuatro características, Antigüedad, Idioma, Voluntad Entusiasta, Firmeza y Seguridad. Como resultado arroja si el candidato es Muy Bueno, Bueno o Regular para cubrir la vacante. Se realiza un sistema de predicción y gestión de candidatos utilizando Django, scikit-learn, TensorFlow/Keras, y ReportLab.
 
 ## Arquitectura MVT.
 
@@ -21,7 +11,11 @@ Tambien te ayuda a manejar los datos, conforme el Usuario realiza diferentes acc
 ## ¿Como instalar la Aplicacion?
 
 ```sh
+git clone git@github.com:walfonso/TFI.git
 
+cd TFI
+
+python -m pip install
 
 ```
 
