@@ -40,10 +40,7 @@ View the hosted on [Heroku] ()
 ### Walter Alfonso: Implementación en python del modelo IA -
 
 
-
-- Acceso a los métodos CRUD - MongoDB:
-
-1. -> \_Home
+1. -> Home
    ![Home](https://raw.githubusercontent.com/walfonso/TFI/master/selecpers/assets/home.png)
 
 2. -> _Productos - Lista de todos los productos_
