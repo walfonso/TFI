@@ -41,16 +41,16 @@ View the hosted on [Heroku] ()
    ![Dashboard](https://github.com/walfonso/TFI/blob/master/selecpers/assets/dashboard.png)
 
 3. -> _Registro de Candidato_
-   ![Register](https://github.com/walfonso/TFI/blob/master/selecpers/assets/dashboard.png)
+   ![Register](https://github.com/walfonso/TFI/blob/master/selecpers/assets/predic.png)
 
 4. -> _Estadísticas_
-   ![Estadísticas](https://github.com/walfonso/TFI/blob/master/selecpers/assets/dashboard.png)
+   ![Estadísticas](https://github.com/walfonso/TFI/blob/master/selecpers/assets/estadisticas.png)
 
 5. -> _Generar Informe_
-   ![genpdf](https://github.com/walfonso/TFI/blob/master/selecpers/assets/dashboard.png)
+   ![genpdf](https://github.com/walfonso/TFI/blob/master/selecpers/assets/genpdf.png)
 
 6. -> _Reseposabilidad Social Empresaria_
-   ![RSE](https://github.com/walfonso/TFI/blob/master/selecpers/assets/dashboard.png)
+   ![RSE](https://github.com/walfonso/TFI/blob/master/selecpers/assets/rse.png)
 
 
 Walter Alfonso
