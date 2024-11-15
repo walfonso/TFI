@@ -41,16 +41,19 @@ View the hosted on [Heroku] ()
 1. -> \_Home
    ![Home](https://github.com/walfonso/TFI/selecpers/assets/home.png)
 
-2. -> _Productos - Lista de todos los productos_
+   ![Texto alternativo](https://github.com/walfonso/TFI/raw/master/assets/home.png)
+
+
+3. -> _Productos - Lista de todos los productos_
    ![List Products](https://github.com/walfonso/TFI/selecpers/assets/dashboard.png)
 
-3. -> _Productos - Agregar producto_
+4. -> _Productos - Agregar producto_
    ![Add Product](https://raw.githubusercontent.com/bonino97/FE-MCGA/products/src/assets/addProduct.png)
 
-4. -> _Productos - Actualizar datos del producto_
+5. -> _Productos - Actualizar datos del producto_
    ![Edit Product](https://raw.githubusercontent.com/walfonso/MCGA-FE/development/src/assets/updateProduct.png)
 
-5. -> _Productos - Borrar producto_
+6. -> _Productos - Borrar producto_
 
 CRUD Usuarios
 
