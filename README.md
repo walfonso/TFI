@@ -49,7 +49,7 @@ View the hosted on [Heroku] ()
 5. -> _Generar Informe_
    ![genpdf](https://github.com/walfonso/TFI/blob/master/selecpers/assets/genpdf.png)
 
-6. -> _Reseposabilidad Social Empresaria_
+6. -> _Responsabilidad Social Empresaria_
    ![RSE](https://github.com/walfonso/TFI/blob/master/selecpers/assets/rse.png)
 
 
