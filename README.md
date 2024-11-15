@@ -33,46 +33,25 @@ View the hosted on [Heroku] ()
 
 ### Walter Alfonso: Implementación en python del modelo IA -
 
-![image](https://github.com/walfonso/TFI/assets/8229684/2b4e784b-4387-4b62-86a4-8d0953961b06)
-
-
-- Acceso a los métodos CRUD - MongoDB:
-
 1. -> \_Home
-   ![Home](https://github.com/walfonso/TFI/selecpers/assets/home.png)
+   ![Home](https://github.com/walfonso/TFI/blob/master/selecpers/assets/home.png)
 
-   ![Texto alternativo](https://github.com/walfonso/TFI/blob/main/assets/home.png)
+2. -> _Productos - Lista de todos los productos_
+   ![List Products](https://github.com/walfonso/TFI/blob/master/selecpers/assets/dashboard.png)
 
-
-3. -> _Productos - Lista de todos los productos_
-   ![List Products](https://github.com/walfonso/TFI/selecpers/assets/dashboard.png)
-
-4. -> _Productos - Agregar producto_
+3. -> _Productos - Agregar producto_
    ![Add Product](https://raw.githubusercontent.com/bonino97/FE-MCGA/products/src/assets/addProduct.png)
 
-5. -> _Productos - Actualizar datos del producto_
+4. -> _Productos - Actualizar datos del producto_
    ![Edit Product](https://raw.githubusercontent.com/walfonso/MCGA-FE/development/src/assets/updateProduct.png)
 
-6. -> _Productos - Borrar producto_
-
-CRUD Usuarios
-
-1. -> _Usuarios - Lista de todos los usuarios_
+5. -> _Productos - Borrar producto_
    ![List Products](https://raw.githubusercontent.com/walfonso/MCGA-FE/development/src/assets/users.png)
 
-2. -> _Usuarios - Agregar usuario_
+6. -> _Usuarios - Agregar usuario_
    ![Add Product](https://raw.githubusercontent.com/walfonso/MCGA-FE/development//src/assets/addUser.png)
 
-3. -> _Productos - Actualizar datos del producto_
-   ![Edit Product](https://raw.githubusercontent.com/walfonso/MCGA-FE/development/src/assets/updateProduct.png)
-
-4. -> _Usuarios - Borrar usuario_
-
-LOGIN Usuarios
-
-1.  -> _Acceso Usuarios - Login usuario_
-    ![Edit Product](https://raw.githubusercontent.com/walfonso/MCGA-FE/development/src/assets/login.png)
 
 Walter Alfonso
 
-© Año 2023
+© Año 2024
