@@ -33,23 +33,24 @@ View the hosted on [Heroku] ()
 
 ### Walter Alfonso: Implementación en python del modelo IA -
 
-1. -> \_Home
+
+1. -> \_Página Principal_
    ![Home](https://github.com/walfonso/TFI/blob/master/selecpers/assets/home.png)
 
-2. -> _Productos - Lista de todos los productos_
-   ![List Products](https://github.com/walfonso/TFI/blob/master/selecpers/assets/dashboard.png)
+2. -> _Dashboard_
+   ![Dashboard](https://github.com/walfonso/TFI/blob/master/selecpers/assets/dashboard.png)
 
-3. -> _Productos - Agregar producto_
-   ![Add Product](https://raw.githubusercontent.com/bonino97/FE-MCGA/products/src/assets/addProduct.png)
+3. -> _Registro de Candidato_
+   ![Register](https://github.com/walfonso/TFI/blob/master/selecpers/assets/dashboard.png)
 
-4. -> _Productos - Actualizar datos del producto_
-   ![Edit Product](https://raw.githubusercontent.com/walfonso/MCGA-FE/development/src/assets/updateProduct.png)
+4. -> _Estadísticas_
+   ![Estadísticas](https://github.com/walfonso/TFI/blob/master/selecpers/assets/dashboard.png)
 
-5. -> _Productos - Borrar producto_
-   ![List Products](https://raw.githubusercontent.com/walfonso/MCGA-FE/development/src/assets/users.png)
+5. -> _Generar Informe_
+   ![genpdf](https://github.com/walfonso/TFI/blob/master/selecpers/assets/dashboard.png)
 
-6. -> _Usuarios - Agregar usuario_
-   ![Add Product](https://raw.githubusercontent.com/walfonso/MCGA-FE/development//src/assets/addUser.png)
+6. -> _Reseposabilidad Social Empresaria_
+   ![RSE](https://github.com/walfonso/TFI/blob/master/selecpers/assets/dashboard.png)
 
 
 Walter Alfonso
