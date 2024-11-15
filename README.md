@@ -39,10 +39,10 @@ View the hosted on [Heroku] ()
 - Acceso a los métodos CRUD - MongoDB:
 
 1. -> \_Home
-   ![Home](https://raw.githubusercontent.com/walfonso/TFI/selecpers/assets/home.png)
+   ![Home](https://github.com/walfonso/TFI/selecpers/assets/home.png)
 
 2. -> _Productos - Lista de todos los productos_
-   ![List Products](https://raw.githubusercontent.com/walfonso/TFI/selecpers/assets/dashboard.png)
+   ![List Products](https://github.com/walfonso/TFI/selecpers/assets/dashboard.png)
 
 3. -> _Productos - Agregar producto_
    ![Add Product](https://raw.githubusercontent.com/bonino97/FE-MCGA/products/src/assets/addProduct.png)
