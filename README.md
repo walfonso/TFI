@@ -41,7 +41,7 @@ View the hosted on [Heroku] ()
 1. -> \_Home
    ![Home](https://github.com/walfonso/TFI/selecpers/assets/home.png)
 
-   ![Texto alternativo](https://github.com/walfonso/TFI/raw/master/assets/home.png)
+   ![Texto alternativo](https://github.com/walfonso/TFI/raw/main/assets/home.png)
 
 
 3. -> _Productos - Lista de todos los productos_
